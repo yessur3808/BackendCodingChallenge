@@ -38,8 +38,26 @@ As such this should be a stand-alone API project.
 - VSCode - IDE 
 
 
+## Folder Structure
+
+    ├── controllers        # Express Route Controllers for all endpoints of the app
+    ├── data               # Where Data files are stored (JSON)
+    ├── models             # Database models (for future replacement of JSON)
+    ├── node_modules       # Modules installed for developing and testing the current backend
+    ├── routes             # API routes
+    ├── server.js          # app main file for running 
+    ├── package.json       # 
+    └── README.md          # Explain all parts of the current project
 
 
+
+
+#### Layer Architecture
+     Controllers <--> Service Layer <--> Data Access Layer
+
+     Service Layer should be used for Game logic
+
+     
 ## Run Locally
 
 Clone the project

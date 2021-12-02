@@ -218,7 +218,6 @@ exports.change_bonusrate = function(req, res){
     }
 }
 
-
 exports.show_config = function(req, res){
     try {
         let rawdata = fs.readFileSync(fullFileURL);
