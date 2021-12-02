@@ -1,0 +1,71 @@
+{
+    "Title": "Players data storage file for the Backend Coding Challenge",
+    "Version": "1.0.0",
+    "Technologies Used": [
+        "Javascript",
+        "NodeJS",
+        "ExpressJS",
+        "JSON",
+        "Postman",
+        "VSCode"
+    ],
+    "configuration": {
+        "NumberOfQuests": 50,
+        "RateFromBet": 1.1,
+        "LevelBonusRate": 1.2
+    },
+    "playersData": {
+        "playerid": {
+            "lastUpdated": "02/12/2021 - 16:12:34 HKT",
+            "progress": {
+                "PlayerLevel": 6,
+                "QuestPointsEarned": 205.20000000000002,
+                "TotalQuestPercentCompleted": 410.40000000000003,
+                "TotalChips": 150,
+                "MilestonesCompleted": [
+                    {
+                        "MilestoneIndex": 0,
+                        "ChipsAwarded": 20
+                    },
+                    {
+                        "MilestoneIndex": 1,
+                        "ChipsAwarded": 50
+                    },
+                    {
+                        "MilestoneIndex": 2,
+                        "ChipsAwarded": 80
+                    }
+                ]
+            }
+        },
+        "897123812ajb": {
+            "lastUpdated": "02/12/2021 - 16:12:40 HKT",
+            "progress": {
+                "PlayerLevel": 12,
+                "QuestPointsEarned": 344.4,
+                "TotalQuestPercentCompleted": 688.8,
+                "TotalChips": 70,
+                "MilestonesCompleted": [
+                    {
+                        "MilestoneIndex": 0,
+                        "ChipsAwarded": 20
+                    },
+                    {
+                        "MilestoneIndex": 1,
+                        "ChipsAwarded": 50
+                    }
+                ]
+            }
+        },
+        "muyasb783": {
+            "lastUpdated": "02/12/2021 - 16:02:31 HKT",
+            "progress": {
+                "PlayerLevel": 0,
+                "QuestPointsEarned": 0,
+                "TotalQuestPercentCompleted": 0,
+                "TotalChips": 0,
+                "MilestonesCompleted": []
+            }
+        }
+    }
+}
