@@ -1,6 +1,6 @@
 
 # Backend Coding Challenge 
-(PlayStudios)
+
 
 Assuming that we already have an existing game and I was asked to create
 a separate internal API service that will be called by the game to progress a players quest. 
@@ -263,6 +263,4 @@ or
 
 - [@yaseribrahim](https://www.github.com/yessur3808)
 
-
-![Logo](https://images.squarespace-cdn.com/content/v1/5599f193e4b0dd60321e231f/1569554823722-VQR8J4PFN96IW6OO2BUH/2019-03-25_PS-hongkong_logo_vector_2color.png)
 
