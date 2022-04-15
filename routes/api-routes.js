@@ -5,7 +5,7 @@ let router = require('express').Router();
 router.get('/test', function (req, res) {
     res.json({
         status: "This API is Working",
-        message: "Welcome to TradeFi's Api",
+        message: "Welcome to PlayStudio's Api",
     });
 });
 
