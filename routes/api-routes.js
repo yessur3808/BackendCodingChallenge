@@ -12,7 +12,7 @@ router.get('/test', function (req, res) {
 // Import contact controller
 var dataController = require('./../controllers/dataController');
 
-/* ----- KYC Application routes ----- */
+
 router.route('/progress').post(dataController.update_progress);
 
 router.route('/state/:playerid').get(dataController.check_state);
